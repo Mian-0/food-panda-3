@@ -1,0 +1,202 @@
+/* Header */
+@media screen and (max-width: 960px) {
+    .hideMobileHeader{
+      background-color: white;
+    }
+    .hideHeader {
+        display: none;
+    }
+
+    .headerLogin{
+        border: none;
+    }
+
+    .headerColumn {
+        float: left;
+        height: 63px;
+      }
+      .left{
+        padding-top: 20px;
+        padding-left: 5px;
+        width: 20%;
+      }
+      .middle{
+        padding-top: 15px;
+        width: 55%;
+      }
+      .headerMobileIcon{
+        display: flex;
+        justify-content: center;
+        padding-left: 2%;
+        width: 100%;
+      }
+      .pandaIconMobile{
+        display: none;
+      }
+      .right{
+        padding-top: 15px;
+        display: flex;
+        justify-content: end;
+        width: 22%;
+      }
+      .headerCartMobile{
+        padding-right: 15px;
+        padding-top: 3px;
+      }
+      .headerBtnLogin{
+        padding: 0;
+      }
+      .HeaderRow{
+        width: 100%;
+        height: 63px;
+        box-shadow: -3px 11px 17px -7px rgb(0 0 0 / 12%);
+
+      }
+}
+
+@media screen and (min-width: 768px) { 
+  .right{
+    padding-left: 10px;
+  }
+  .pandaIconMobile{
+    display: block;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (min-width: 962px) { 
+    .hideMobileHeader{
+        display:none;
+    }
+}
+/* Header Completed */
+
+/* Hero Section */
+@media screen and (min-width: 1440px) { 
+  .heroColBtns, .heroColTitle{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 940px;
+    max-width: 1400px;
+  }
+  .heroTitle{
+    padding: 100px 0 48px;
+  }
+  .heroRow{
+    max-width: 1425px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .heroContainer{
+    background: url("img/hero.png");
+    padding: 16px 16px;
+    padding-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .heroTitle{
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--primary-font-color);
+    padding-bottom: 35px;
+    padding-right: 35%;
+    padding-top: 10px;
+    max-width: 100%;
+  }
+  .heroColBtns{
+    padding: 16px;
+    background-color: none !important;
+    box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%);
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 419px) {
+  .heroContainer{
+    background: url("img/hero.png");
+    padding: 16px 16px;
+    padding-top: 60px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+} */
+
+@media screen and (min-width: 769px) {
+  .heroColBtns{
+    max-width: 940px;
+    width: 80%;
+  }
+  .HeroBtnDelivery, .HeroBtnPick-Up{
+    width: 100%;
+    height: 100%;
+
+  }
+  .heroBtnContainer {
+    flex: none;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+    .heroTitle{
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--primary-font-color);
+    padding-bottom: 35px;
+    padding-right: 35%;
+    padding-top: 10px;
+    max-width: 100%;
+  }
+  .heroColBtns{
+    padding: 0;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+    flex-wrap: wrap;
+    /* justify-content: left; */
+    /* max-width: 100%; */
+  }
+  .heroInputAndIcon{
+    max-width: 100%;
+  }
+  .heroInput{
+    box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%);
+    /* padding: 15px 0px 12px 15px; */
+    margin-bottom: 20px !important;
+
+  }
+  .heroIcon{
+    margin-right: 16px;
+  }
+  .HeroBtnDelivery, .HeroBtnPick-Up{
+    width: 100%;
+    height: 48%;
+    padding: 25px 10px;
+
+  }
+  .heroContainer{
+    background: url("img/hero.png");
+    padding: 16px 16px;
+    padding-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: ; */
+  }
+}
+@media only screen and (max-width: 400px) {
+  .heroBtnSpacer{
+    padding:20px 5px ;
+  }
+}

@@ -1,0 +1,163 @@
+/* Variables */
+:root {
+    --primary-color: #e21b70;
+    --primary-font-color: #333333;
+}
+
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',Arial,sans-serif;
+    box-sizing: border-box;
+}
+.pink{
+    color: var(--primary-color);
+}
+
+/* Header */
+.hideHeader{
+    box-shadow: -3px 11px 17px -7px rgb(0 0 0 / 12%);
+}
+
+.header{
+    display: flex ;
+    height: 64px;
+}
+
+.headerLogo {
+    padding: 16px 24px 0;
+    flex: 4;
+}
+
+.headerBtns{
+    display: flex;
+}
+
+.headerLogin {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-left: 1px solid #ececec;
+}
+
+.headerBtnLogin{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+
+.headerLoginIcon {
+    padding-right: 8px;
+}
+
+.headerLoginTitle{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.headerCart {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-left: 1px solid #ececec;
+}
+
+/* Hero Section */
+.heroContainer{
+    background: url("img/hero.png");
+    padding: 120px 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heroTitle{
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--primary-font-color);
+    padding-bottom: 35px;
+}
+
+.heroColBtns{
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 960px;
+    max-width: 1460px;
+}
+
+.heroInputAndIcon{
+    display: flex;
+    flex: 2;
+    max-width: 552px;
+}
+
+.heroInput{
+    height: 37px;
+    padding: 15px 15px 12px 15px;
+    border: 1px solid #dcdcdc;
+    color: var(--primary-font-color);
+    font-size: 14px;
+    font-weight: 200;
+    transition: all .15s;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.heroIcon{
+    margin-left: -40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.heroBtnContainer{
+    flex: 1;
+    display: flex;
+}
+
+.heroBtnSpacer{
+    padding: 20px;
+    font-size: 16px;
+    color: var(--primary-font-color);
+}
+
+.HeroBtnDelivery{
+    padding: 25px 55px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 8px;
+    font-family: "Open Sans";
+}
+
+.HeroBtnPick-Up{
+    padding: 25px 55px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 8px;
+    font-family: "Open Sans";
+}
+
+
+
+/* Btn For All Sections */
+.HeroBtnAll{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    cursor: pointer;
+}
+.HeroBtnAll:hover{
+    color: var(--primary-color);
+    background-color: #fdf2f7;
+    transition: color .2s cubic-bezier(.25,.46,.45,.94),background-color .2s cubic-bezier(.25,.46,.45,.94),border-color .2s cubic-bezier(.25,.46,.45,.94),box-shadow .2s cubic-bezier(.25,.46,.45,.94);
+}
+/* Btn For All Section Completed */
+
+/*  */

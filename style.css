@@ -160,4 +160,80 @@ body {
 }
 /* Btn For All Section Completed */
 
-/*  */
+/* Title For All Section */
+.titleContainerForAllSections{
+    padding: 0px 80px;
+    margin-top: -30px;
+    position: relative;
+}
+.titleForAllSections{
+    font-size: 160px;
+    padding: 0;
+    margin: 0 !important;
+    color: #0000000A;
+}
+.subTitleForAllSections{
+    color: var(--primary-font-color);
+    font-size: 28px;
+    font-weight: lighter;
+    position: absolute;
+    top: 47%;
+    left: 5.5%;
+    /* transform: translate(-50%,-50%); */
+}
+/* Title For All Section Completed */
+
+
+
+/* Partners Section  */
+.customTitleMarginsPartners{
+    margin-top: -70px;
+    margin-bottom: -60px;
+    z-index: 0;
+}
+.partnersContainer{
+    background: url("img/Partners.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 80px;
+    height: 432px;
+    max-width: 100%;
+    margin-bottom: 300px;
+    display: flex;
+    align-items: end;
+    z-index: 3;
+}
+
+.cardPartners{
+    padding: 32px;
+    width: 100%;
+    max-width: 532px;
+    background-color: white;
+    margin-bottom: -88px;
+    box-shadow: 0 2px 28px 0 rgba(0,0,0,.12);
+}
+.titlePartnersCard{
+    font-size: 24px;
+    font-weight: lighter;
+    color: var(--primary-font-color);
+    margin: 0;
+    margin-bottom: 28px;
+    padding: 0;
+}
+.subTitlePartnersCard{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #767676;
+    margin: 0;
+    margin-bottom: 14px;
+    padding: 0;
+}
+.HeroBtnGetStarted{
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 28px;
+}
+/* Partners Section Completed */

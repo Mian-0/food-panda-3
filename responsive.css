@@ -432,3 +432,18 @@
   }
 }
 /* Office Section Completed */
+
+/* Faqs Section */
+@media screen and (min-width: 1440px) {
+  .faqRow{
+    width: 979px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .faqContainer{
+    padding: 0 16px;
+  }
+}
+/* Faqs Section Completed */

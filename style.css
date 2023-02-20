@@ -390,6 +390,8 @@ body {
 }
 .officeBg{
     background: url(img/office.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* Office Section Completed */
 
@@ -397,8 +399,41 @@ body {
 .faqContainer{
     padding: 0 80px;
 }
-.MainHeadings{
+.MainHeadingsFaq{
     font-size: 32px;
     color: var(--primary-font-color);
+    line-height: .8;
 }
+.ParagraphFaq{
+    font-size: 16px;
+    color: var(--primary-font-color);
+    font-weight: 300;
+    margin: 16px 0;
+}
+.ListItemFaq{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--primary-font-color);
+}
+.ListFaq{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.linkFaq{
+    color: var(--primary-color);
+}
+hr{
+    border: 0;
+    border-top: 1px solid #ebebeb;
+}
+.MainHeadingsFaqs{
+    font-size: 22px;
+    color: var(--primary-font-color);
+}
+.subHeadingFaqs{
+    font-size: 18px;
+    color: var(--primary-font-color);
+}
+
 /* Faq Section Completed */

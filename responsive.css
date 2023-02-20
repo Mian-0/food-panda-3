@@ -318,9 +318,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .customTitleMarginsCities{
-    /* margin-top: 50px; */
-  }
   .cardsSlider{
     grid-template-columns: repeat(10, 49vw);
   }

@@ -392,3 +392,13 @@ body {
     background: url(img/office.webp);
 }
 /* Office Section Completed */
+
+/* Faq Section */
+.faqContainer{
+    padding: 0 80px;
+}
+.MainHeadings{
+    font-size: 32px;
+    color: var(--primary-font-color);
+}
+/* Faq Section Completed */

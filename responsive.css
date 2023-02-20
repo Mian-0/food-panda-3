@@ -225,6 +225,7 @@
     padding: 120px 16px !important;
     height: 63px;
     display: block;
+    margin-bottom: 300px;
   }
   .cardPartners{
     padding: 16px;
@@ -248,6 +249,7 @@
 /* Title for all sections */
 @media screen and (min-width: 1440px) { 
   .titleContainerForAllSections{
+    overflow: hidden;
     padding: 0px 120px;
   }
   .titleContainerForAllSections{
@@ -279,3 +281,66 @@
   }
 }
 /* Title for all sections  Completed */
+
+
+/* Citites Section */
+@media screen and (min-width: 1440px) {
+  .citiesRow{
+    width: 1300px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .citiesCol{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    justify-content: start;
+    padding-left: 10.9%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .hidemobilecards{
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .citiesContainer{
+    padding:0 16px;
+  }
+  .hidecities{
+    display: none;
+  }
+  .customTitleMarginsCities{
+    margin-bottom: -82px;
+  }
+  .cardsSlider{
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .customTitleMarginsCities{
+    /* margin-top: 50px; */
+  }
+  .cardsSlider{
+    grid-template-columns: repeat(10, 49vw);
+  }
+}
+@media screen and (max-width: 590px) {
+  .customTitleMarginsCities{
+    margin-top: 200px;
+  }
+  .cardsSlider{
+    grid-template-columns: repeat(10, 70vw);
+  }
+  .customTitleMarginsCities{
+    margin-top: 350px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .citiesCol{
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+}
+
+/* Citites Section Completed */

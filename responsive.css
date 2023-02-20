@@ -292,10 +292,15 @@
   }
   .citiesCol{
     margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
-    justify-content: start;
+    width: 92%;
+    /* max-width: 100%; */
+    /* justify-content: start; */
     padding-left: 10.9%;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .cardCitiesLahore{
+    margin: 16px;
   }
 }
 @media screen and (min-width: 960px) {
@@ -341,3 +346,68 @@
 }
 
 /* Citites Section Completed */
+
+/* App Section */
+@media screen and (min-width: 1440px) {
+  .appRow{
+    width: 1004px;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .appCol1{
+    width: 60%;
+  }
+  .appCol2{
+    background: url("img/App.webp");
+    background-size: cover;
+    background-position: right;
+    width: 60%;
+    height: 120%;
+  }
+}
+@media screen and (min-width: 961px) {
+.apphide{
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .appContainer{
+    padding: 40px 0 40px 16px;
+  }
+  .appCol2{
+    width: 50%;
+    background: none;
+    height: 120%;
+    overflow: hidden;
+  }
+  .appDownload{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .appContainer{
+    height: 80%;
+  }
+  .appRow{
+    flex-direction: column-reverse;
+  }
+ .appCol1{
+    width: 100%;
+    background: none;
+    margin: 10px 0;
+ }
+ .appCol2{
+    background: none;
+    overflow: visible;
+ } 
+ .appDownload{
+    padding-top: 20px;
+ }
+}
+@media screen and (max-width: 500px) {
+
+}
+/* App Section Completed */

@@ -256,7 +256,7 @@ body {
     text-align: center;
     color: white;
     /* width: 100%; */
-    margin: 16px;
+    margin-bottom:  16px;
 }
 .citiesImage{
     height: 272px;
@@ -331,3 +331,54 @@ body {
 }
 /* Mobile Cards Slider Completed */
 /* Citites Section Completed */
+
+/* App Section */
+.customTitleMarginsApp{
+    margin-bottom: -61px;
+    margin-top: 60px;
+}
+.appContainer {
+    padding: 0 80px;
+    background-color: var(--primary-color);
+    height: 359px;
+}
+.appRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+.appCol1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+    
+}
+.appCol2{
+    width: 50%;
+    background: url("img/App.webp");
+    background-size: cover;
+    background-position: center;
+    height: 120%;
+}
+.appTitle{
+    margin: 0;
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+}
+.appSubTitle{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.appDownload{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 80px;
+}
+.appDownloadIcon{
+    margin:0 16px 16px 0;
+}
+/* App Section Completed*/

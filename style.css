@@ -382,3 +382,13 @@ body {
     margin:0 16px 16px 0;
 }
 /* App Section Completed*/
+
+/* Office Section  */
+.customTitleMarginsOffice{
+    margin-top: 100px !important;
+    margin-bottom: -60px;
+}
+.officeBg{
+    background: url(img/office.webp);
+}
+/* Office Section Completed */

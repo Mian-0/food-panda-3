@@ -336,7 +336,7 @@
 @media screen and (min-width: 960px) {
   .citiesCol{
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-evenly;
   }
 }
 

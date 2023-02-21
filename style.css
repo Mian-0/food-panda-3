@@ -29,6 +29,9 @@ body {
     padding: 16px 24px 0;
     flex: 4;
 }
+.st0{
+    fill: #D70F64 !important;
+}
 
 .headerBtns{
     display: flex;
@@ -437,3 +440,93 @@ hr{
 }
 
 /* Faq Section Completed */
+
+/* Foooter Section */
+.footerContainer{
+    padding: 0 80px 74px;
+}
+.footerContainer a{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #333333;
+}
+.footerContainer a:hover{
+    color: #ff2b85;
+    cursor: pointer;
+    transition: color .1s linear;
+}
+/* Top Footer */
+.st1{
+    fill: #d3d3d3 !important;
+}
+.topFooterRow{
+    display: flex;
+    justify-content: space-between;
+}
+.topFooterContainer{
+    padding: 30px 0;
+}
+.fb-icon-container{
+    border: 1px solid #d3d3d3 !important;
+    border-radius: 50%;
+    padding: 5px;
+    padding-left: 8px;
+    text-decoration: none;
+    margin: 0 8px;
+    color: #d3d3d3 !important;
+}
+.fb-icon{
+    font-size: 20px;
+    padding-top: 1px;
+}
+.insta-icon-container{
+    border: 1px solid #d3d3d3 !important;
+    border-radius: 50%;
+    padding: 6px;
+    text-decoration: none;
+    margin: 0 8px;
+    color: #d3d3d3 !important;
+}
+.insta-icon{
+    font-size: 20px;
+    padding-top: 1px;
+}
+.insta-icon-container:hover,.fb-icon-container:hover{
+    border-color:#ff2b85;
+    color: #ff2b85;
+    cursor: pointer;
+    transition: color .1s linear;
+}
+
+/* Top Footer Completed */
+
+/* Middle Footer */
+.middleFooterRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.footerContainer ul {
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: 1fr;
+    row-gap: 6px;
+    list-style: none;
+}
+.middleContainerRowforNav{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+/* Middle Footer Completed */
+
+/* Bottom Footer */
+.bottomFooterText{
+    font-size: 16px !important;
+    font-weight: lighter;
+    color: var(--primary-font-color);
+}
+/* Bottom Footer Completed */
+
+/* Foooter Section Completed */

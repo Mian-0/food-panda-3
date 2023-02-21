@@ -200,7 +200,11 @@
     padding:20px 5px ;
   }
 }
-
+@media only screen and (max-width: 960px) and (min-width: 768px) {
+  .customTitleMarginsPartners{
+    margin-top: 30px;
+  }
+}
 
 
 /* Partners Section */
@@ -447,3 +451,55 @@
   }
 }
 /* Faqs Section Completed */
+
+/* Foooter Section */
+@media screen and (min-width: 1440px) {
+  .footerRow{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 1000px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footerRow{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 1000px;
+    padding-left: 18px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footerContainer{
+    padding: 0 16px 74px;
+  }
+}
+/* Top Footer */
+/* Top Footer Completed */
+
+/* Middle Footer */
+@media screen and (max-width: 768px) {
+  .middleContainerRowforNav{
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .middleFooterRow{
+    flex-wrap: wrap-reverse;
+  }
+  .middleFooterCol1{
+    width: 100%;
+    text-align: center;
+  }
+  .middleFooterCol2,.middleFooterCol3,.middleFooterCol4{
+    width: 100%;
+  }
+  .footerContainer ul{
+    padding: 0;
+  }
+}
+/* Middle Footer Completed */
+
+/* Bottom Footer */
+/* Bottom Footer Completed */
+
+/* Foooter Section Completed */
